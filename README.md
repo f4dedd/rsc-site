@@ -6,6 +6,7 @@ basic template for starting with a vite project for RSC
 
 - Install pnpm
 - Clone repository and run ```pnpm install```
+- To use hotreload run ```pnpm run dev```
 
 ## Recommendations
 
