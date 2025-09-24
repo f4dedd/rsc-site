@@ -36,6 +36,11 @@ export default defineConfig([
       reactDom.configs.recommended,
     ],
     languageOptions: {
+      parserOptions: {
+        project: ['./tsconfig.node.json', './tsconfig.app.json'],
+        tsconfigRootDir: import.meta.dirname,
+      },
+      
       ecmaVersion: 2020,
       globals: globals.browser,
     },
