@@ -12,4 +12,5 @@ basic template for starting with a vite project for RSC
 
 Install recommended plugins (VS Code):
 - dbaeumer.vscode-eslint
+- bradlc.vscode-tailwindcss
 - ms-vscode.vscode-typescript-next
