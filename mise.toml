@@ -1,0 +1,45 @@
+[tools]
+node = '24'
+pnpm = "10.17.1"
+
+[tasks.pre-commit]
+description = "Hook on precommit"
+run = [
+    "mise run lint-check"
+]
+
+[tasks.install]
+description = "Install all dependencies"
+run = [
+    'pnpm install'
+]
+
+[tasks.dev]
+description = "Run the project in development mode"
+run = [
+    "pnpm vite"
+]
+
+[tasks.build]
+description = "Build the project"
+run = [
+    "pnpm vite build"
+]
+
+[tasks.lint-check]
+description = "Check linting for the project"
+run = [
+    "pnpm eslint ."
+]
+
+[tasks.ci]
+description = "Execute CI"
+run = [
+    "mise run lint-check"
+]
+
+[tasks.cd]
+description = "Execute CD"
+run = [
+    "mise run lint-check"
+]
