@@ -43,3 +43,6 @@ description = "Execute CD"
 run = [
     "mise run lint-check"
 ]
+
+[hooks]
+postinstall = "mise run install"

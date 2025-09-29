@@ -4,9 +4,10 @@ basic template for starting with a vite project for RSC
 
 ## Getting Started
 
-- Install pnpm
-- Clone repository and run ```pnpm install```
-- To use hotreload run ```pnpm run dev```
+- Install mise
+- Run ```mise install``` to install tools
+- Run ```mise activate``` to enter the production environment
+
 
 ## Recommendations
 
